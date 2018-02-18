@@ -2,25 +2,20 @@
 
 File/directory descriptions:
 
-examples - examples images and videos
+1. examples - examples images and videos
+2. output_images - image outputs at different stages of pipeline
+3. test_images - images to test pipeline on
+4. test_videos - videos to test pipeline on
+5. test_videos_output - video output from pipeline
+6. video_thumbnails - video thumbnails used in writeup
+7. P1.ipynb - jupyter notebook with project code
+8. instructions.md - project instructions
 
-output_images - image outputs at different stages of pipeline
-
-test_images - images to test pipeline on
-
-test_videos - videos to test pipeline on
-
-test_videos_output - video output from pipeline
-
-video_thumbnails - video thumbnails used in writeup
-
-P1.ipynb - jupyter notebook with project code
-
-instructions.md - project instructions
 
 When we drive, we use our eyes to decide where to go.  The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle.  Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
 
 In this project you will detect lane lines in images using Python and OpenCV.  OpenCV means "Open-Source Computer Vision", which is a package that has many useful tools for analyzing images.  
+
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
