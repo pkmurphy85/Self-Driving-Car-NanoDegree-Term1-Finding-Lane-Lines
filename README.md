@@ -50,8 +50,6 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
-
 My pipeline consisted of 6 steps.
 
 1. First, the image is coverted to grayscale .
@@ -104,7 +102,7 @@ Click to watch!
 Click to watch!
 [![Video 2](https://imgur.com/EcoU3RV.png)](https://www.youtube.com/watch?v=qnQRJvRumnE&feature=youtu.be "Finding Lane Lines, Video 2 - Click to Watch!")
 
-### 2. Identify potential shortcomings with your current pipeline
+### 2. Shortcomings
 
 
 One short coming is the region of interest mask. The mask assumes the camera in a certain position, resulting in the lane lines being in a predictable place in the frame.
@@ -113,7 +111,7 @@ Another shortcoming is while the pipeline seems to perfrom well for relatively s
 
 
 
-### 3. Suggest possible improvements to your pipeline
+### 3. Potential Improvements
 
 Right now the pipeline uses a few global variables to process image files. I would like to move away from using global variables that need to be reset when presented with a new video.
 
