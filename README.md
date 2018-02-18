@@ -70,31 +70,41 @@ My pipeline consisted of 6 steps.
    iii. After separating the lines by slope we average them to get a single line representing each lane marker. Longer line segments are given more weight, the assumption being that longer lines are more likely to represent the lane maker. The result is a single line for each lane marker represented in slope intercept form.
     iv. Finally the lines are converted from slope/intercept form back to a point to point representation so we can draw them on our original image.
 
-Below is a visualization of a single image as it moves through the pipeline.
+Below is a visualization of a single image as it moves through the pipeline.  
+
 
 Original
-![alt text][original]
+![alt text][original]  
+
 Grayscale
-![alt text][grayscale]
+![alt text][grayscale]  
+
 Blurring
-![alt text][blur]
+![alt text][blur]  
+
 Canny Edge Detection
-![alt text][canny]
+![alt text][canny]  
+
 Masked by Region of Interest
-![alt text][masked]
+![alt text][masked]  
+
 Hough Transformation
-![alt text][hough]
+![alt text][hough]  
+
 Hough Lines on Original Image
-![alt text][hough+original]
+![alt text][hough+original]  
+
 Averaging/Extrapolation
-![alt text][extrapolate]
+![alt text][extrapolate]  
+
 Final Output
-![alt text][final]
+![alt text][final]  
+
 
 
 ## Processing Video
 
-An additional step was added for processing video. The output of the final step in the pipeline results in two lane lines for that image. For video that output is averaged with the outputs for the previous 10 frames to determine the best lane lines. This helps reduce jitter our our lane lines in the resulting output video. Below are the results on the pipeline in two test videos.
+An additional step was added for processing video. The output of the final step in the pipeline results in two lane lines for that image. For video that output is averaged with the outputs for the previous 10 frames to determine the best lane lines. This helps reduce jitter in our lane lines in the resulting output video. Below are the results on the pipeline in two test videos.
 
 Click to watch!
 [![Video 1](http://i.imgur.com/CWucwRa.png)](https://www.youtube.com/watch?v=0PPlycpj68w&feature=youtu.be "Finding Lane Lines, Video 1 - Click to Watch!")
