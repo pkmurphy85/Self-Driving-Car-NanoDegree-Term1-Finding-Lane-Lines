@@ -52,7 +52,7 @@ The goals / steps of this project are the following:
 
 My pipeline consisted of 6 steps.
 
-1. First, the image is coverted to grayscale .
+1. First, the image is coverted to grayscale.
 
 2. Next a Gaussian blurring is applied to the gray scale image. This helps supress noise in the image through averaging. This is already done within openCV's canny edge detection function but we perfrom this because:
     i. This allows us to perform additional smoothing and
